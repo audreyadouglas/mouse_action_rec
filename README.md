@@ -11,7 +11,7 @@ This project does action recognition through a 2 phase anchor method.
 ![arch_stage1](https://github.com/audreyadouglas/mouse_action_rec/blob/main/website_resources/arch_stage1.png)
 
 **Stage 2**  
-![arch_stage2](.\website_resources\arch_stage2.png)
+![arch_stage2]([.\website_resources\arch_stage2.png](https://github.com/audreyadouglas/mouse_action_rec/blob/main/website_resources/arch_stage2.png))
 The VLM being used for this project is Qwen2-VL-2B-Instruct, but other models can be easily substituted.
 
 # Setup
