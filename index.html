@@ -1,29 +1,33 @@
 <html>
-<link href=“https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap” rel=“stylesheet”>
 <head>
   <title>Audrey Douglas</title>
 </head>
 <body style="background-color:#bfd4bf;">
-  <h1>Audrey Douglas</h1>
-  <h3>CSE 598</h3>
+  <h1>Fast Localization and Slow Classification of Mouse Behavior
+Prediction using Sparse Video with Trajectory Estimation</h1>
+  <h3>Audrey Douglas</h3>
+  <a href="mailto:aadougl@umich.edu">aadougl@umich.edu</a><br>
+  University of Michigan
+  <img src=".\Audrey_website_img.jpeg" alt="HTML tutorial" style="width:200px;">
   <div>
-    <br>
-    <span>I am currently a PhD student in Computer Science and Engineering at the University of Michigan, advised by Jason Corso in the Cog Lab. I previously received my bachelors in Computation and Cognition from MIT, where I worked with the Info Lab and Fiete Lab. My research interests are generally in computer vision, language, and perception, with my current focus being on video understanding. My interests span temporal reasoning, video representation, multimodal video question answering, and causality. In the past, my work has focused on neurally inspired machine learning architectures and multi-agent behavior understanding.</span>
-    <br><br>
+    To read the paper go to <a href=".\Final_Efficient_Mouse_Behavior_Prediction_using_Sparse_Video_with_Trajectory_Estimation.pdf" target="blank">CV</a>.<br>
+    You can also find more information from my CSE 598 <a href=".\Project_Slides.pdf" target="blank">presentation</a> on 12/2
+    or <a href=".\Project_Poster.pdf" target="blank">poster</a><br>.
   </div>
   <div>
-    <span>Current Research:</span><br>
-    <span>My current work focuses on multi-agent long form video understanding for video question answering and outcome prediction with Pre-K classroom education videos. The task involves multimodal representation of the 3d environment, classroom, students, and speech, along with the compaction of video representations. My present aims involve adapting LLMs to reason with these representations and caching information in a person centric way.</span>
-    <br><br>
-  </div>
-  <div>
-    <span>Past Reserach:</span><br>
-    <hr>
-  </div>
-  <div>
-    <span>Audrey Douglas</span><br>
-    <a href=".\Audrey_Douglas_Resume.pdf" target="blank">CV</a><br>
-    <a href="mailto:aadougl@umich.edu">aadougl@umich.edu</a>
+    <h5>Model</h5>
+    The model performs action recognition in 2 stages, action localization and classification.
+    Stage 1: Action Localization
+    <img src=".\arch_stage1.png" alt="HTML tutorial" style="width:600px;">
+    Stage 2: Action Classification
+    <img src=".\arch_stage2.png" alt="HTML tutorial" style="width:600px;">
+
+    <h5>Experiments</h5>
+    We are using the <a href="https://sites.google.com/view/computational-behavior/our-datasets/calms21-dataset" target="blank">CalMS21</a> to test this
+    architecture. Specifically their Task 1 and Task 3. Task 1 looks at 4 behaviors across 70 videos, and Task 3 looks at
+    7 more action over a smaller set of videos. All steps of the pipeline will be evalutated.
+
+    <h5>Results</h5>
   </div>
 </body>
 </html>
