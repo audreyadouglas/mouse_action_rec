@@ -20,11 +20,11 @@ Qwen-2.5 requires being run on a GPU, so make sure you have the proper resources
 For all other parts of the pipeline use pip install requirements.txt
 
 # Repo Overview
-pred_task1.py - Trains stage 1 of the network to predict if an action happens.
-predict_ifaction.ipynb - Use model trained from pred_task1.py to create video clips.
-video_embedding_qwen2.ipynb - Feed in video clips from predict_ifaction.ipynb to create embeddings.
-action_pred_network.ipynb - Use embeddings from video_embedding_qwen2.ipynb to train action prediction network.
-action_pred_network.ipynb - Using model from action_pred_network.ipynb or clustering predicts actions and evaluates model.
+**pred_task1.py** - Trains stage 1 of the network to predict if an action happens.  
+**predict_ifaction.ipynb** - Use model trained from pred_task1.py to create video clips.  
+**video_embedding_qwen2.ipynb** - Feed in video clips from predict_ifaction.ipynb to create embeddings.  
+**action_pred_network.ipynb** - Use embeddings from video_embedding_qwen2.ipynb to train action prediction network.  
+**action_pred_network.ipynb** - Using model from action_pred_network.ipynb or clustering predicts actions and evaluates model.
 
 # Demo
 To try a quick demo with a set video and pretrained models, use ----.ipynb.
