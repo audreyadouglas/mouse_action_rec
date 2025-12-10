@@ -8,7 +8,7 @@ You can find more about the project at https://audreyadouglas.github.io/mouse_ac
 This project does action recognition through a 2 phase anchor method.
 
 **Stage 1**  
-![arch_stage1](https://github.com/audreyadouglas/mouse_action_rec/website_resources/arch_stage1.png)
+![arch_stage1](https://github.com/audreyadouglas/mouse_action_rec/blob/main/website_resources/arch_stage1.png)
 
 **Stage 2**  
 ![arch_stage2](.\website_resources\arch_stage2.png)
