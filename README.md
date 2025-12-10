@@ -17,7 +17,9 @@ The VLM being used for this project is Qwen2-VL-2B-Instruct, but other models ca
 # Setup
 Qwen-2.5 requires being run on a GPU, so make sure you have the proper resources. On the Great Lakes compute cluster use the packages mamba/py3.10 and ffmpeg.
 
-For all other parts of the pipeline use pip install requirements.txt
+For all other parts of the pipeline use pip install requirements.txt.
+
+You can donwload the necessary data from <https://data.caltech.edu/records/s0vdx-0k302>.
 
 # Repo Overview
 **pred_task1.py** - Trains stage 1 of the network to predict if an action happens.  
