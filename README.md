@@ -27,4 +27,4 @@ For all other parts of the pipeline use pip install requirements.txt
 **action_pred_network.ipynb** - Using model from action_pred_network.ipynb or clustering predicts actions and evaluates model.
 
 # Demo
-To try a quick demo with a set video and pretrained models, use ----.ipynb.
+To try a quick demo with a set video and pretrained models, use demo.ipynb.
