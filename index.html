@@ -6,14 +6,33 @@
   <h1>Fast Localization and Slow Classification of Mouse Behavior
 Prediction using Sparse Video with Trajectory Estimation</h1>
   Audrey Douglas<br>
-  <a href="mailto:aadougl@umich.edu">aadougl@umich.edu</a><br>
+  <a href="mailto:aadougl@umich.edu">aadougl@umich.edu</a><br>C
   University of Michigan<br>
-  <img src=".\DOC\Audrey_website_img.jpeg" alt="HTML tutorial" style="width:150px;">
+  <img src=".\DOC\Audrey_website_img.jpeg" alt="HTML tutorial" style="width:150px;"><br><br>
   <div>
     You can read the paper <a href=".\DOC\Final_Efficient_Mouse_Behavior_Prediction_using_Sparse_Video_with_Trajectory_Estimation.pdf" target="blank">here</a>.<br>
-    You can also find more information from my CSE 598 <a href=".\website_resources\Project_Slides.pdf" target="blank">presentation</a> on 12/2
+    You can also find more information from my CSE 598 <a href=".\DOC\Project_Slides.pdf" target="blank">presentation</a> on 12/2
     or <a href=".\DOC\Project_Poster.pdf" target="blank">poster</a>.<br>
     All code used for the project can be found <a href="https://github.com/audreyadouglas/mouse_action_rec/tree/main">here</a>.
+    
+    <h3>Abstract</h3>
+    Manual labeling of animal behavior, such as in mice studies, is timeconsuming, inconsistent, and limits large-scale analysis. This is a
+    task that would be revolutionized by machine labeling. Although
+    recent advances in video understanding with transformer-based
+    vision-language models (VLMs) enable richer temporal embeddings,
+    they remain computationally infeasible for continuous video and
+    lose information over long videos. To address this, we propose a
+    two-stage temporal action localization pipeline for mouse behavior
+    recognition. In the first stage, features, either from pose estimation or frame embeddings, are used to identify candidate action
+    segments. In the second stage, these segments are processed with
+    the Qwen2.5-VL video VLM to obtain action segment embeddings,
+    which are then classified using either a neural network (for highlabeled data) or clustering (for low-labeled data). We evaluate our
+    method across just pose and just frame embedding features on both
+    a supervised and few shot learning mouse behavior dataset. By
+    combining low-cost action localization with high-accuracy VLMbased classification, our approach aims to reduce computation while
+    maintaining performance, offering a scalable method for predicting
+    mouse behavior in long or continuous video recordings.<br>
+    
   </div>
   <div>
     <h3>Model</h3>
