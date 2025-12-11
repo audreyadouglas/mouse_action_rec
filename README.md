@@ -24,7 +24,7 @@ For all other parts of the pipeline use pip install requirements.txt.
 You can donwload the necessary data from <https://data.caltech.edu/records/s0vdx-0k302>.
 
 # Repo Overview
-To train and run the model through the pipeline data must be passed through the following files, in order.
+To train and run the model through the pipeline data must be passed through the following files, in order.  
 **pred_task1.py** - Trains stage 1 of the network to predict if an action happens.  
 **predict_ifaction.ipynb** - Use model trained from pred_task1.py to create video clips.  
 **video_embedding_qwen2.ipynb** - Feed in video clips from predict_ifaction.ipynb to create embeddings.  
